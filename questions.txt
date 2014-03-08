@@ -1,0 +1,145 @@
+team_id	qns_id	article_title	path	qns_difficulty_by_questioner	qns_text	is_disfluent?	is_bad_qns?	answer	qns_difficulty_by_answerer
+C3PO	1	Perl	set3/a8	hard	Do Perl programs start faster than programs in C?	False	False	It depends.	too hard
+C3PO	1	Perl	set3/a8	hard	Do Perl programs start faster than programs in C?	False	False	No	hard
+C3PO	2	Perl	set3/a8	hard	Is Perl easier to program in than C?	False	False	It depends.	hard
+C3PO	2	Perl	set3/a8	hard	Is Perl easier to program in than C?	False	False	Yes	hard
+C3PO	3	Perl	set3/a8	hard	Where can I look to learn more about Perl?	False	False	Further reading.	easy
+C3PO	3	Perl	set3/a8	hard	Where can I look to learn more about Perl?	False	False	Programming Perl 4th Edition	too hard
+C3PO	4	Perl	set3/a8	medium	What is the unofficial symbol of Perl?	False	False	 A picture of a dromedary camel.	medium
+C3PO	4	Perl	set3/a8	medium	What is the unofficial symbol of Perl?	False	False	Camel	medium
+C3PO	5	Perl	set3/a8	medium	From which languages does Perl borrow features from?	False	False	C, shell scripting (sh), AWK, and sed.	easy
+C3PO	5	Perl	set3/a8	medium	From which languages does Perl borrow features from?	False	False	C, sh, AWK, sed	medium
+C3PO	6	Perl	set3/a8	medium	What is Perl's nickname?	False	False	The Swiss Army chainsaw of scripting languages	easy
+C3PO	6	Perl	set3/a8	medium	What is Perl's nickname?	False	False	the Swiss Army chainsaw of scripting languages	medium
+C3PO	7	Perl	set3/a8	easy	Is Perl golf the pastime of reducing the number of characers used in a Perl program to the bare minimum?	False	False	Yes.	easy
+C3PO	7	Perl	set3/a8	easy	Is Perl golf the pastime of reducing the number of characers used in a Perl program to the bare minimum?	False	False	Yes	easy
+C3PO	8	Perl	set3/a8	easy	Is Perl used for finance?	False	False	Yes	easy
+C3PO	8	Perl	set3/a8	easy	Is Perl used for finance?	False	False	Yes	easy
+C3PO	9	Perl	set3/a8	easy	Was Perl 5.14.1 released on June 17, 2011?	False	False	Yes	easy
+C3PO	9	Perl	set3/a8	easy	Was Perl 5.14.1 released on June 17, 2011?	False	False	Yes	easy
+C3PO	10	Latin	set3/a6	hard	Is there anyone that can speak Latin fluently?	False	False	yes	hard
+C3PO	10	Latin	set3/a6	hard	Is there anyone that can speak Latin fluently?	False	False	Yes	hard
+C3PO	11	Latin	set3/a6	hard	Does Latin have only two moods?	False	False	no	easy
+C3PO	11	Latin	set3/a6	hard	Does Latin have only two moods?	False	False	No	hard
+C3PO	12	Latin	set3/a6	hard	Did the passage explain why Latin dialogue is occasionally used?	False	False	yes	hard
+C3PO	12	Latin	set3/a6	hard	Did the passage explain why Latin dialogue is occasionally used?	False	False	Yes	hard
+C3PO	13	Latin	set3/a6	medium	Have all international auxiliary languages been heavily influenced by Latin?	False	False	No	hard
+C3PO	13	Latin	set3/a6	medium	Have all international auxiliary languages been heavily influenced by Latin?	False	False	No	hard
+C3PO	14	Latin	set3/a6	medium	Is Latin still compulsory in Boston Latin School?	False	False	yes	hard
+C3PO	14	Latin	set3/a6	medium	Is Latin still compulsory in Boston Latin School?	False	False	Yes	easy
+C3PO	15	Latin	set3/a6	medium	Did Latin alphabet derive from the Old Italic alphabet?	False	False	yes	easy
+C3PO	15	Latin	set3/a6	medium	Did Latin alphabet derive from the Old Italic alphabet?	False	False	Yes	medium
+C3PO	16	Latin	set3/a6	easy	Is Latin still taught?	False	False	yes	easy
+C3PO	16	Latin	set3/a6	easy	Is Latin still taught?	False	False	Yes	medium
+C3PO	17	Latin	set3/a6	easy	Are there many websites and forums maintained in Latin by enthusiasts?	False	False	yes	easy
+C3PO	17	Latin	set3/a6	easy	Are there many websites and forums maintained in Latin by enthusiasts?	False	False	Yes	easy
+C3PO	18	Latin	set3/a6	easy	Are many of the most common polysyllabic English words of Latin origin?	False	False	yes	easy
+C3PO	18	Latin	set3/a6	easy	Are many of the most common polysyllabic English words of Latin origin?	False	False	Yes	easy
+C3PO	19	Landon_Donovan	set1/a2	hard	What are the roles that Landon usually plays?	False	False	withdrawn forward	medium
+C3PO	19	Landon_Donovan	set1/a2	hard	What are the roles that Landon usually plays?	False	False	forward and midfielder	hard
+C3PO	20	Landon_Donovan	set1/a2	hard	What are the languages that Donovan speaks?	False	False	Spanish, German, English	hard
+C3PO	20	Landon_Donovan	set1/a2	hard	What are the languages that Donovan speaks?	False	False	Spanish and German	hard
+C3PO	21	Landon_Donovan	set1/a2	hard	Is five World Cup goals the most for any man representing a team for CONCACAF?	False	False	yes	easy
+C3PO	21	Landon_Donovan	set1/a2	hard	Is five World Cup goals the most for any man representing a team for CONCACAF?	False	False	Yes	easy
+C3PO	22	Landon_Donovan	set1/a2	medium	Who is Tim Donovan?	False	False	He is an American association football player.	medium
+C3PO	22	Landon_Donovan	set1/a2	medium	Who is Tim Donovan?	True	False		
+C3PO	23	Landon_Donovan	set1/a2	medium	When did Donovan's mother allow him to join an organized league?	False	False	When he was six.	medium
+C3PO	23	Landon_Donovan	set1/a2	medium	When did Donovan's mother allow him to join an organized league?	False	False	six	medium
+C3PO	24	Landon_Donovan	set1/a2	medium	Is Donovan the third American player to score in more than one World Cup?	False	False	yes	easy
+C3PO	24	Landon_Donovan	set1/a2	medium	Is Donovan the third American player to score in more than one World Cup?	False	False	Yes	easy
+C3PO	25	Landon_Donovan	set1/a2	easy	Did Landon ever go on loan?	False	False	yes	easy
+C3PO	25	Landon_Donovan	set1/a2	easy	Did Landon ever go on loan?	False	False	yes	medium
+C3PO	26	Landon_Donovan	set1/a2	easy	Can Donovan speak Spanish?	False	False	yes	easy
+C3PO	26	Landon_Donovan	set1/a2	easy	Can Donovan speak Spanish?	False	False	Yes	easy
+C3PO	27	Landon_Donovan	set1/a2	easy	Is Donovan currently playing for the Los Angeles Galaxy?	False	False	yes	easy
+C3PO	27	Landon_Donovan	set1/a2	easy	Is Donovan currently playing for the Los Angeles Galaxy?	False	False	Yes	easy
+C3PO	28	Star_Trek_(film)	set4/a8	hard	Who is James T. Kirk's father?	False	False	George Samuel Kirk	medium
+C3PO	28	Star_Trek_(film)	set4/a8	hard	Who is James T. Kirk's father?	False	False	George Samuel Kirk	too hard
+C3PO	29	Star_Trek_(film)	set4/a8	hard	Who was the original creator of Star Trek?	False	False	Gene Roddenberry	medium
+C3PO	29	Star_Trek_(film)	set4/a8	hard	Who was the original creator of Star Trek?	False	False	Gene Roddenberry	easy
+C3PO	30	Star_Trek_(film)	set4/a8	hard	Which character did Leonard Nimoy play?	False	False	Spock	hard
+C3PO	30	Star_Trek_(film)	set4/a8	hard	Which character did Leonard Nimoy play?	False	False	Original Spock.	too hard
+C3PO	31	Star_Trek_(film)	set4/a8	medium	What happened to the majority of Spencer Daniels's scenes?	False	False	They were cut	hard
+C3PO	31	Star_Trek_(film)	set4/a8	medium	What happened to the majority of Spencer Daniels's scenes?	False	False	A tribble was placed in the background of Scotty's introduction. Both digital and physical makeup was used for aliens.	too hard
+C3PO	32	Star_Trek_(film)	set4/a8	medium	Which substance creates black holes in the move?	False	False	red matter	hard
+C3PO	32	Star_Trek_(film)	set4/a8	medium	Which substance creates black holes in the move?	False	False	Red matter	hard
+C3PO	33	Star_Trek_(film)	set4/a8	medium	Which academy award did Star Trek win?	False	False	Best Makeup	hard
+C3PO	33	Star_Trek_(film)	set4/a8	medium	Which academy award did Star Trek win?	False	False	Best Makeup,	hard
+C3PO	34	Star_Trek_(film)	set4/a8	easy	Who from NASA was consulted on the planetary science?	False	False	Carolyn Porco	medium
+C3PO	34	Star_Trek_(film)	set4/a8	easy	Who from NASA was consulted on the planetary science?	False	False	Carolyn Porco	easy
+C3PO	35	Star_Trek_(film)	set4/a8	easy	When did development for Star Trek originate?	False	False	1968	medium
+C3PO	35	Star_Trek_(film)	set4/a8	easy	When did development for Star Trek originate?	False	False	1968	easy
+C3PO	36	Star_Trek_(film)	set4/a8	easy	When did principal photography commence?	False	False	November 7, 2007	medium
+C3PO	36	Star_Trek_(film)	set4/a8	easy	When did principal photography commence?	False	False	November 7, 2007	easy
+C3PO	37	The_Artist_(film)	set4/a1	hard	Does Peppy give Zimmer an ultimatum?	True	False	No	easy
+C3PO	37	The_Artist_(film)	set4/a1	hard	Does Peppy give Zimmer an ultimatum?	True	False	Yes	hard
+C3PO	38	The_Artist_(film)	set4/a1	hard	Is Valentin on good terms with his wife after his film fails to be a hit?	False	False	NO	too hard
+C3PO	38	The_Artist_(film)	set4/a1	hard	Is Valentin on good terms with his wife after his film fails to be a hit?	False	False	No	too hard
+C3PO	39	The_Artist_(film)	set4/a1	hard	How does Valentin meet Miller?	False	False	Peppy Miller accidentally bumps into him	medium
+C3PO	39	The_Artist_(film)	set4/a1	hard	How does Valentin meet Miller?	False	False	posing for picture outside the premiere of A Russian Affair	too hard
+C3PO	40	The_Artist_(film)	set4/a1	medium	How many Golden Globes did the film win?	False	False	3	medium
+C3PO	40	The_Artist_(film)	set4/a1	medium	How many Golden Globes did the film win?	False	False	3	medium
+C3PO	41	The_Artist_(film)	set4/a1	medium	Who wrote and directed the film?	False	False	Michel Hazanavicius and stars Jean Dujardin and B�r�nice Bejo	medium
+C3PO	41	The_Artist_(film)	set4/a1	medium	Who wrote and directed the film?	False	False	Michel Hazanavicius	medium
+C3PO	42	The_Artist_(film)	set4/a1	medium	How many stars did Christley give the film?	False	False	1.5	easy
+C3PO	42	The_Artist_(film)	set4/a1	medium	How many stars did Christley give the film?	False	False	1.4	medium
+C3PO	43	The_Artist_(film)	set4/a1	easy	Did the story take place in Bollywood?	False	False	No	easy
+C3PO	43	The_Artist_(film)	set4/a1	easy	Did the story take place in Bollywood?	False	False	No	too hard
+C3PO	44	The_Artist_(film)	set4/a1	easy	Was the film's music largely composed by Ludovic Bource?	False	False	Yes	easy
+C3PO	44	The_Artist_(film)	set4/a1	easy	Was the film's music largely composed by Ludovic Bource?	False	False	Yes	easy
+C3PO	45	The_Artist_(film)	set4/a1	easy	Was the Artist was filmed in fifty-three days?	False	False	No	easy
+C3PO	45	The_Artist_(film)	set4/a1	easy	Was the Artist was filmed in fifty-three days?	False	False	No	easy
+C3PO	46	Landon_Donovan	set1/a2	hard	Did Donovan sign a six-year contract for German clud Bayer Leverkusen before 1999?	False	False	no	hard
+C3PO	46	Landon_Donovan	set1/a2	hard	Did Donovan sign a six-year contract for German clud Bayer Leverkusen before 1999?	False	False	No	too hard
+C3PO	47	Landon_Donovan	set1/a2	hard	Is Donovan still playing football?	False	False	yes	hard
+C3PO	47	Landon_Donovan	set1/a2	hard	Is Donovan still playing football?	False	False	Yes	hard
+C3PO	48	Landon_Donovan	set1/a2	hard	When did Donovan express his desire to take a break from his professional soccer career?	False	False	2012	medium
+C3PO	48	Landon_Donovan	set1/a2	hard	When did Donovan express his desire to take a break from his professional soccer career?	False	False	October 2012	easy
+C3PO	49	Landon_Donovan	set1/a2	medium	Is Donovan male or female?	False	False	male	medium
+C3PO	49	Landon_Donovan	set1/a2	medium	Is Donovan male or female?	False	False	male	hard
+C3PO	50	Landon_Donovan	set1/a2	medium	Dis Donovan's team ever win Honduras in San Pedro Sula?	False	False	yes	easy
+C3PO	50	Landon_Donovan	set1/a2	medium	Dis Donovan's team ever win Honduras in San Pedro Sula?	False	True		
+C3PO	51	Landon_Donovan	set1/a2	medium	Did Donovan sign a six-year contract for German clud Bayer Leverkusen before 1999?	False	False	no	hard
+C3PO	51	Landon_Donovan	set1/a2	medium	Did Donovan sign a six-year contract for German clud Bayer Leverkusen before 1999?	False	False	No	too hard
+C3PO	52	Landon_Donovan	set1/a2	easy	Is Donovan the first man to be named U.S. Soccer Athlete of the Year three years in a row?	False	False	yes	easy
+C3PO	52	Landon_Donovan	set1/a2	easy	Is Donovan the first man to be named U.S. Soccer Athlete of the Year three years in a row?	False	False	Yes	easy
+C3PO	53	Landon_Donovan	set1/a2	easy	Was Donovan born in California?	False	False	yes	easy
+C3PO	53	Landon_Donovan	set1/a2	easy	Was Donovan born in California?	False	False	Yes	easy
+C3PO	54	Landon_Donovan	set1/a2	easy	Did Donovan sign a  six-year contract for German clud Bayer Leverkusen?	False	False	no	hard
+C3PO	54	Landon_Donovan	set1/a2	easy	Did Donovan sign a  six-year contract for German clud Bayer Leverkusen?	False	False	Yes	easy
+C3PO	55	Slumdog_Millionaire	set4/a3	hard	Dis Slumdog Millionaire won all the Acacemy Awards that it was nominated for in 2009?	False	False	no	hard
+C3PO	55	Slumdog_Millionaire	set4/a3	hard	Dis Slumdog Millionaire won all the Acacemy Awards that it was nominated for in 2009?	False	True		
+C3PO	56	Slumdog_Millionaire	set4/a3	hard	Was Slumdog Millionarie only inspired by Swarup's original novel Q & A?	False	False	Yes	hard
+C3PO	56	Slumdog_Millionaire	set4/a3	hard	Was Slumdog Millionarie only inspired by Swarup's original novel Q & A?	False	False	No	too hard
+C3PO	57	Slumdog_Millionaire	set4/a3	hard	Why did Beaufoy make three research trips to India?	False	False	To hone the script.	hard
+C3PO	57	Slumdog_Millionaire	set4/a3	hard	Why did Beaufoy make three research trips to India?	False	False	to hone the script	hard
+C3PO	58	Slumdog_Millionaire	set4/a3	medium	When dis Slumdog Millionaire have a nationwide grand release in the United Kingdom?	False	False	9 January 2009	medium
+C3PO	58	Slumdog_Millionaire	set4/a3	medium	When dis Slumdog Millionaire have a nationwide grand release in the United Kingdom?	False	False	9 January 2009	medium
+C3PO	59	Slumdog_Millionaire	set4/a3	medium	Who produced the Australian 2008 release of Slumdog MIllionaire?	False	False	Icon Film Distribution	medium
+C3PO	59	Slumdog_Millionaire	set4/a3	medium	Who produced the Australian 2008 release of Slumdog MIllionaire?	False	False	Icon Film Distribution	medium
+C3PO	60	Slumdog_Millionaire	set4/a3	medium	Did Jamal ever worked as a tea server at an Indian call centre?	False	False	yes	hard
+C3PO	60	Slumdog_Millionaire	set4/a3	medium	Did Jamal ever worked as a tea server at an Indian call centre?	False	False	Yes	medium
+C3PO	61	Slumdog_Millionaire	set4/a3	easy	Was Jamal Malik a former street child?	False	False	yes	easy
+C3PO	61	Slumdog_Millionaire	set4/a3	easy	Was Jamal Malik a former street child?	False	False	Yes	easy
+C3PO	62	Slumdog_Millionaire	set4/a3	easy	Was Slumdog Millionaire a major success in East Asia?	False	False	yes	easy
+C3PO	62	Slumdog_Millionaire	set4/a3	easy	Was Slumdog Millionaire a major success in East Asia?	False	False	Yes	easy
+C3PO	63	Slumdog_Millionaire	set4/a3	easy	Was the Slumdog Millionaire soundtrack composed by A.R.Rahman?	False	False	yes	easy
+C3PO	63	Slumdog_Millionaire	set4/a3	easy	Was the Slumdog Millionaire soundtrack composed by A.R.Rahman?	False	False	Yes	easy
+C3PO	64	Lionel_Messi	set1/a7	hard	Which roles does Messi prefer to play?	False	False	forward	medium
+C3PO	64	Lionel_Messi	set1/a7	hard	Which roles does Messi prefer to play?	True	False		too hard
+C3PO	65	Lionel_Messi	set1/a7	hard	How many times did Messi win La Liga?	False	False	5	medium
+C3PO	65	Lionel_Messi	set1/a7	hard	How many times did Messi win La Liga?	False	False	5	too hard
+C3PO	66	Lionel_Messi	set1/a7	hard	What is Messi's nationality?	False	False	Argentine	medium
+C3PO	66	Lionel_Messi	set1/a7	hard	What is Messi's nationality?	True	False	Spanish	easy
+C3PO	67	Lionel_Messi	set1/a7	medium	What's the name of Messi's son?	False	False	Thiago	medium
+C3PO	67	Lionel_Messi	set1/a7	medium	What's the name of Messi's son?	False	False	Thiago	medium
+C3PO	68	Lionel_Messi	set1/a7	medium	How old was Messi when he started to play for Barcelona?	False	False	11	too hard
+C3PO	68	Lionel_Messi	set1/a7	medium	How old was Messi when he started to play for Barcelona?	False	False	11	hard
+C3PO	69	Lionel_Messi	set1/a7	medium	Against which team did Messi become the first player to score 5 goals in one match?	False	False	Bayer Leverkusen	medium
+C3PO	69	Lionel_Messi	set1/a7	medium	Against which team did Messi become the first player to score 5 goals in one match?	False	False	Bayer Leverkusen	hard
+C3PO	70	Lionel_Messi	set1/a7	easy	What is Messi's net wealth estimated at?	False	False	$110 million	medium
+C3PO	70	Lionel_Messi	set1/a7	easy	What is Messi's net wealth estimated at?	False	False	$110 millon	easy
+C3PO	71	Lionel_Messi	set1/a7	easy	Who were Barcelona defeated by in the 2011 Copa del Rey Final?	False	False	Real Madrid	medium
+C3PO	71	Lionel_Messi	set1/a7	easy	Who were Barcelona defeated by in the 2011 Copa del Rey Final?	False	False	arch-rivals Real Madrid	medium
+C3PO	72	Lionel_Messi	set1/a7	easy	Which video games front covers were Messi featured on?	False	False	Pro Evolution Soccer 2009 and 2011	medium
+C3PO	72	Lionel_Messi	set1/a7	easy	Which video games front covers were Messi featured on?	False	False	Pro Evolution Soccer 2009 and Pro Evolution Soccer 2011	easy

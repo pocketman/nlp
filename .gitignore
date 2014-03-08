@@ -1,5 +1,7 @@
 venv
 .sass-cache
 *.pyc
-stanford-corenlp-full-2014-01-04
+stanford-corenlp-full*
 *~
+data
+legacy

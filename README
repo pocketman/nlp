@@ -1,0 +1,10 @@
+You must have unzipped stanford-corenlp-full-2013-11-12 version in the same folder as the repl file
+To run the program type:
+
+python -i repl.py
+
+#... wait a bit for corenlp to laod ...
+>>readA('articlename.txt')
+>>askQ('What is blah blah blah?')
+>>r = getrank()
+>>r[0:5] # returns the top 5 sentence matches
