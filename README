@@ -1,4 +1,4 @@
-You must have unzipped stanford-corenlp-full-2013-11-12 version in the same folder as the repl file
+You must have unzipped stanford-corenlp-full-2013-11-12 version in the same folder as the repl file (this is version 3.3.0, not the latest version).
 To run the program type:
 
 python -i repl.py
