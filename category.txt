@@ -1,0 +1,27 @@
+O - direct/indirect object
+JJ - adjective
+ADV - adverb
+NP - noun phrase
+T - Time
+YN - Yes/No
+
+Categories-----------------
+
+What = O
+Is = YN
+When = Time
+Would = YN 
+Or = NP
+Do = YN
+Have = YN
+Can = YN
+How = NP
+Why = NP
+Which = O
+Who = Person
+Whose = Person
+Whom = Person
+Where = Place
+How + much/many/old/far/long = Quantity
+
+

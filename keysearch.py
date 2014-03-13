@@ -91,3 +91,42 @@ def cosDist(q, s):
                     score+=weight*math.log(N/V[word])
                 alreadyseen[word][pos] = True
     return score
+
+
+
+
+
+#question classifier
+#Noun Phrase Key Words
+#1 - object
+#2 - time
+#3 - place
+#4 - person
+CATS = ['Y/N', 'object', 'time', 'place', 'person']
+NPKW = {'what':1,\
+        'when':2,\
+        'where':3,\
+        'which':1,\
+        'who': 4,\
+        'whose': 4,\
+        'whom': 4,\
+        'why': 1,\
+        'how': 1}
+
+YN = {'is': 0,\
+      'can': 0,\
+      'have': 0,\
+      'do': 0,\
+      'would': 0}
+def classify(q):
+    for tok in q:
+        word = tok['word'].lower()
+        if word in NPKW:
+            print CATS[NPKW[word]]
+            return NPKW[word]
+        elif word in YN:
+            print CATS[YN[word]]
+            return YN[word]
+    print 'Not a question.'
+    return -1
+

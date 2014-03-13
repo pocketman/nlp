@@ -21,6 +21,5 @@ def getrank():
 
 #reload functions
 def myreload():
-    reload(api)
     reload(keysearch)
     keysearch.trainIR(article)
