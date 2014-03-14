@@ -1,0 +1,17 @@
+is/are - appositives
+         subject of copula
+         rcmod
+         
+directObject - prep_to
+
+phrases - xcomp
+        - 
+Relation - prep_in
+         - prep_out
+
+descriptive_relations
+        - prep_of
+        - 
+time - tmod
+
+Unknown - dep (can be sort of relation)

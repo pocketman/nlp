@@ -94,8 +94,6 @@ def cosDist(q, s):
 
 
 
-
-
 #question classifier
 #Noun Phrase Key Words
 #1 - object
@@ -118,7 +116,7 @@ YN = {'is': 0,\
       'have': 0,\
       'do': 0,\
       'would': 0}
-def classify(q):
+def classifyQ(q):
     for tok in q:
         word = tok['word'].lower()
         if word in NPKW:

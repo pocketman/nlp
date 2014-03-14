@@ -16,7 +16,21 @@ def getcorenlp():
     corenlp = StanfordCoreNLP(CORENLPDIR)
     return corenlp
     
-def parsefiles(fileloc):
+def parseS(s):
+    parse = corenlp.raw_parse(s)
+    sentences = []
+    for l in parse['sentences']:
+        sentence = []
+        for w in l['words']:
+            token = {}
+            token['word'] = w[0]
+            token['NER'] = w[1]['NamedEntityTag']
+            token['POS'] = w[1]['PartOfSpeech']
+            sentence.append(token)
+    sentences.append(sentence)
+    return sentences
+
+def parsefile(fileloc):
     sentences=[]
     if corenlp==None:
         print "CoreNLP Not loaded"
