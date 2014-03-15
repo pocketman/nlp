@@ -16,7 +16,6 @@ class ModelRewriter:
         inputFile = open("model.txt")
         modelJsonString = inputFile.read()
         inputFile.close()
-        print modelJsonString
         modelMap = json.loads(modelJsonString)
         ModelRewriter.rewriteRules = modelMap
         return modelMap
@@ -29,7 +28,8 @@ class ModelRewriter:
     #this is the only method the user need to invoke
     @staticmethod
     def generateQuestions(inputSentence):
-        sentencePOS = ModelRewriter.parseSentence(inputSentence)
+        print inputSentence
+        sentencePOS = ModelRewriter.getPOSList(inputSentence)
         nearestModels = ModelRewriter.getNearestModel(sentencePOS)
         questions = []
         for model in nearestModels:
@@ -67,17 +67,26 @@ class ModelRewriter:
 
     @staticmethod
     def comparePOSList(templateModelPOSList, newModelPOSList):
-        if len(templateModelPOSList) == len(newModelPOSList):
+        if len(templateModelPOSList) != len(newModelPOSList):
             return False
         else:
+            print templateModelPOSList
+            print newModelPOSList
             for i in xrange(len(templateModelPOSList)):
-                try:
-                    if templateModelPOSList[i] != newModelPOSList[i]:
-                        return False
-                except:
-                    print i
-
+                tempTemplate = unicode(templateModelPOSList[i])
+                tempNew = unicode(newModelPOSList[i])
+                if tempTemplate != tempNew:
+                    return False
             return True
+
+    @staticmethod
+    def getPOSList(sentence):
+        tokenList = nltk.word_tokenize(sentence)
+        posList = nltk.pos_tag(tokenList)
+        resultList = []
+        for temp in posList:
+            resultList.append(temp[1])
+        return resultList
 
 
     @staticmethod
@@ -89,9 +98,7 @@ class ModelRewriter:
             for questionMap in questionList:
                 question = ModelRewriter.generateSingleQuestion(questionMap, sentenceToken)
                 if question is not None:
-                    questions += question   #merge two lists
-
-
+                    questions.append(question)   #merge two lists
 
         elif model.has_key["Medium"]:
             pass
@@ -110,31 +117,26 @@ class ModelRewriter:
         question = modelMap["question"]
         indexList = modelMap["index"]
 
-        questionToken = nltk.word_tokenize(question)
+        questionToken = nltk.word_tokenize(question.strip())
 
         questionString = ""
         indexList = indexList.strip().split()
         for i in xrange(len(indexList)):
             if indexList[i] == "-":
-                try:
-                    questionString += questionToken[i]
-                except:
-                    print "error------"
-                    print questionToken[i]
+                questionString += questionToken[i]
 
             else:
-                try:
-                    questionString += sentenceToken[int(indexList[i].strip())]
-                except:
-                    print sentenceToken
-                    print indexList
-                    print indexList[i]
+                questionString += sentenceToken[int(indexList[i].strip())]
+            questionString += " "
+        return questionString.strip()
 
 
 
 
 
 
+if __name__ == "__main__":
+    print ModelRewriter.getPOSList("He received two yellow cards as Chelsea lost at White Hart Lane for the first time since 1987.")
 
 
 
