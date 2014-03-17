@@ -1,5 +1,5 @@
-import keysearch
-import extractor
+import keysearch as ks
+import extractor as ex
 import api
 
 q = None
@@ -14,19 +14,31 @@ def parse(s):
 def readA(fileloc):
     global article
     article = api.parsefile(fileloc)
-    keysearch.trainIR(article)
+    ks.trainIR(article)
 
 #Set the question to be asked
 def askQ(s):
     global q
-    q = keysearch.parseQ(s)
+    q = ks.parseQ(s)
+    ranks = getrank()
+    svo = ex.getQ(0,parse(s)[0])
+    if not svo:
+        return "I don't know"
+    for r in ranks:
+        result = ex.getYN(svo, parse(r))
+        if result==1:
+            return "Yes"
+        elif result == -1:
+            return "No"
+    return "I don't know"
 
 #Fetches the top ranked sentences
 def getrank():
-    return keysearch.mostRelevant(q,article)
+    return ks.mostRelevant(q,article)
+
 
 #reload functions
 def myreload():
-    reload(keysearch)
-    reload(extractor)
-    keysearch.trainIR(article)
+    reload(ks)
+    reload(ex)
+    ks.trainIR(article)
