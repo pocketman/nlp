@@ -1,0 +1,13 @@
+{ "template" : [ { "Easy" : [ "Where was Terry born?" ],
+        "origin" : "Terry was born in Barking."
+      },
+      { "Easy" : [ "is John George Terry an English professional footballer?",
+            "What is John George Terry?"
+          ],
+        "origin": "John George Terry is an English professional footballer."
+      },
+      {
+        "Easy":["How many yellow cards did he received as Chelsea lots at White Hart Lane for the first time since 1987."],
+        "origin":"he received two yellow cards as Chelsea lost at White Hart Lane for the first time since 1987."
+      }
+    ] }
