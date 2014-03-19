@@ -1,6 +1,7 @@
 import keysearch as ks
 import extractor as ex
 import api
+import json
 
 q = None
 article = None
@@ -42,3 +43,15 @@ def myreload():
     reload(ks)
     reload(ex)
     ks.trainIR(article)
+
+def toJson(s, name):
+    f = open(name, 'w')
+    f.write(json.dumps(s))
+    f.close()
+def fromJson(name):
+    stuff = []
+    f = open(name)
+    for l in f:
+        stuff.append(json.loads(l))
+    f.close()
+    return stuff
