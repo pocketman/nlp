@@ -42,6 +42,7 @@ def parseQ(q):
         tok['word'] = w[0]
         tok['NER'] = w[1]['NamedEntityTag']
         tok['POS'] = w[1]['PartOfSpeech']
+        tok['lemma'] = w[1]['Lemma']
         if not (tok['POS'] in IGNORE):
             question.append(tok)
     return question
@@ -56,7 +57,7 @@ def trainIR(article):
     for sentence in article:
         seen = {}
         for w in sentence:
-            word = w['word']
+            word = w['lemma']
             if not word in seen:
                 seen[word] = True
                 V[word]+=1
@@ -64,10 +65,11 @@ def trainIR(article):
 def mostRelevant(q, article):
     dictq = {}
     for tok in q:
-        dictq[tok['word']] = tok['POS']
+        dictq[tok['lemma']] = tok['POS']
     sentencerank = []
-    for s in article:
-        sentencerank.append((api.toString(s), cosDist(dictq, s)))
+    for i in range(len(article)):
+        s = article[i]
+        sentencerank.append((api.toString(article[i]), cosDist(dictq, s)))
     sentencerank = sorted(sentencerank, key = lambda t: t[1], reverse=True)
     return sentencerank
 
@@ -75,7 +77,7 @@ def cosDist(q, s):
     alreadyseen = {}
     score = 0
     for tok in s:
-        word = tok['word']
+        word = tok['lemma']
         pos = tok['POS']
         weight = DWGHT
         if word in q:

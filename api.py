@@ -26,6 +26,7 @@ def parseS(s):
             token['word'] = w[0]
             token['NER'] = w[1]['NamedEntityTag']
             token['POS'] = w[1]['PartOfSpeech']
+            token['lemma'] = w[1]['Lemma']
             sentence.append(token)
     sentences.append(sentence)
     return sentences
@@ -45,6 +46,7 @@ def parsefile(fileloc):
                     token['word'] = w[0]
                     token['NER'] = w[1]['NamedEntityTag']
                     token['POS'] = w[1]['PartOfSpeech']
+                    token['lemma'] = w[1]['Lemma']
                     sentence.append(token)
                 sentences.append(sentence)
     return sentences

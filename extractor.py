@@ -1,7 +1,7 @@
 ''' Answer Extractor Module'''
 
 import api
-import pygraphviz as pgv
+#import pygraphviz as pgv
 import math
 
 #edges
@@ -37,6 +37,7 @@ def getGraph(s):
             G[x] = [(y,rel)]
     return G
 #s is the string you want to turn into a graph
+'''
 def visualizeGraph(s):
     p = api.parseS(s)
     G = getGraph(p[0])
@@ -48,7 +49,7 @@ def visualizeGraph(s):
         for tpl in G[v]:
             vis.add_edge(v, tpl[0], label=tpl[1])
     vis.draw('graph.png', prog='circo')
-
+'''
 
 #returns the index of the string node
 def idx(node):

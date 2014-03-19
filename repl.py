@@ -20,8 +20,8 @@ def readA(fileloc):
 def askQ(s):
     global q
     q = ks.parseQ(s)
-    ranks = getrank()
-    svo = ex.getQ(0,parse(s)[0])
+    return getrank()
+    '''svo = ex.getQ(0,parse(s)[0])
     if not svo:
         return "I don't know"
     for r in ranks:
@@ -30,7 +30,7 @@ def askQ(s):
             return "Yes"
         elif result == -1:
             return "No"
-    return "I don't know"
+    return "I don't know"'''
 
 #Fetches the top ranked sentences
 def getrank():
