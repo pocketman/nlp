@@ -32,20 +32,13 @@ POSWGHT = {'RB': 0.7,\
            'VBP': 1.7,\
            'VBZ': 1.7,\
            'WDT':0.2,\
-           'WP':0.2} 
+           'WP':0.2,\
+           'DET': 0,\
+           '.': 0} 
 DWGHT = 1.0 # default weight
 def parseQ(q):
-    question = []
-    parse = corenlp.raw_parse(q)
-    for w in parse['sentences'][0]['words']:
-        tok={}
-        tok['word'] = w[0]
-        tok['NER'] = w[1]['NamedEntityTag']
-        tok['POS'] = w[1]['PartOfSpeech']
-        tok['lemma'] = w[1]['Lemma']
-        if not (tok['POS'] in IGNORE):
-            question.append(tok)
-    return question
+    question = api.parseS(q)
+    return question[0]
 def askQ(question, document):
     article = parsefile(document)
     q = parseQ(question)
