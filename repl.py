@@ -89,6 +89,8 @@ def getQ(questions):
 def evalAlgo():
     q = getQ('questions.txt')
     i = 0
+    out = raw_input('File to write: ')
+    output = open(out,'w')
     article_name = q[i]['path']
     types = collections.Counter()
     total = collections.Counter()
@@ -97,19 +99,10 @@ def evalAlgo():
         if q[i]['path']!=article_name:
             article_name = q[i]['path']
             a_obj = readA(article_name)
-        print q[i]['qns_text'],'\n', askQ(q[i]['qns_text'], a_obj)[0]
-        good = raw_input('Did the program answer it correctly(y/n)? ')
-        if good == "y":
-            types[q[i]['type']]+=1
-        total[q[i]['type']]+=1
+        outstr = q[i]['type']+' | '+q[i]['qns_text']+ '\n'+ str(askQ(q[i]['qns_text'], a_obj)[0])+'\n'+q[i]['answer']+'\n'
+        output.write(outstr)
         i+=1
-    out = raw_input('File to write: ')
-    output = open(out,'w')
-    outstr = ""
-    for k in types:
-        outstr+=k+":"+str(types[k])+" out of "+str(total[k])+" correct.\n"
-    print outstr
-    output.write(outstr)
+        print i
     output.close()
     
         
