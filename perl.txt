@@ -1,0 +1,3 @@
+medium:3 out of 3 correct.
+hard:1 out of 3 correct.
+easy:3 out of 3 correct.

@@ -10,9 +10,6 @@ corenlp = api.corenlp
 
 #ignore these POS
 IGNORE = {'DT','.',',','\''}
-#parameters for IR
-V = collections.Counter()
-N = 0
 #weights given to POS
 #POS not in this are given default value of 1
 POSWGHT = {'RB': 0.7,\
@@ -43,10 +40,7 @@ def askQ(question, document):
     article = parsefile(document)
     q = parseQ(question)
     
-def trainIR(article):
-    global V
-    global N
-    N = len(article)
+def trainIR(article, V):
     for sentence in article:
         seen = {}
         for w in sentence:
@@ -54,19 +48,20 @@ def trainIR(article):
             if not word in seen:
                 seen[word] = True
                 V[word]+=1
+    return len(article)
 
-def mostRelevant(q, article):
+def mostRelevant(q, article, V, N):
     dictq = {}
     for tok in q:
         dictq[tok['lemma']] = tok['POS']
     sentencerank = []
     for i in range(len(article)):
         s = article[i]
-        sentencerank.append((api.toString(article[i]), cosDist(dictq, s)))
+        sentencerank.append((api.toString(article[i]), cosDist(dictq, s, V, N)))
     sentencerank = sorted(sentencerank, key = lambda t: t[1], reverse=True)
     return sentencerank
 
-def cosDist(q, s):
+def cosDist(q, s, V, N):
     alreadyseen = {}
     score = 0
     for tok in s:

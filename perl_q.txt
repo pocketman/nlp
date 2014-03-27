@@ -1,0 +1,19 @@
+team_id	qns_id	article_title	path	qns_difficulty_by_questioner	qns_text	is_disfluent?	is_bad_qns?	answer	qns_difficulty_by_answerer
+C3PO	1	Perl	set3/a8	hard	Do Perl programs start faster than programs in C?	False	False	It depends.	too hard
+C3PO	1	Perl	set3/a8	hard	Do Perl programs start faster than programs in C?	False	False	No	hard
+C3PO	2	Perl	set3/a8	hard	Is Perl easier to program in than C?	False	False	It depends.	hard
+C3PO	2	Perl	set3/a8	hard	Is Perl easier to program in than C?	False	False	Yes	hard
+C3PO	3	Perl	set3/a8	hard	Where can I look to learn more about Perl?	False	False	Further reading.	easy
+C3PO	3	Perl	set3/a8	hard	Where can I look to learn more about Perl?	False	False	Programming Perl 4th Edition	too hard
+C3PO	4	Perl	set3/a8	medium	What is the unofficial symbol of Perl?	False	False	 A picture of a dromedary camel.	medium
+C3PO	4	Perl	set3/a8	medium	What is the unofficial symbol of Perl?	False	False	Camel	medium
+C3PO	5	Perl	set3/a8	medium	From which languages does Perl borrow features from?	False	False	C, shell scripting (sh), AWK, and sed.	easy
+C3PO	5	Perl	set3/a8	medium	From which languages does Perl borrow features from?	False	False	C, sh, AWK, sed	medium
+C3PO	6	Perl	set3/a8	medium	What is Perl's nickname?	False	False	The Swiss Army chainsaw of scripting languages	easy
+C3PO	6	Perl	set3/a8	medium	What is Perl's nickname?	False	False	the Swiss Army chainsaw of scripting languages	medium
+C3PO	7	Perl	set3/a8	easy	Is Perl golf the pastime of reducing the number of characers used in a Perl program to the bare minimum?	False	False	Yes.	easy
+C3PO	7	Perl	set3/a8	easy	Is Perl golf the pastime of reducing the number of characers used in a Perl program to the bare minimum?	False	False	Yes	easy
+C3PO	8	Perl	set3/a8	easy	Is Perl used for finance?	False	False	Yes	easy
+C3PO	8	Perl	set3/a8	easy	Is Perl used for finance?	False	False	Yes	easy
+C3PO	9	Perl	set3/a8	easy	Was Perl 5.14.1 released on June 17, 2011?	False	False	Yes	easy
+C3PO	9	Perl	set3/a8	easy	Was Perl 5.14.1 released on June 17, 2011?	False	False	Yes	easy
