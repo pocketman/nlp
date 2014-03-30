@@ -3,6 +3,5 @@ venv
 *.pyc
 stanford-corenlp-full*
 *~
-data
 legacy
 *.DS_Store
