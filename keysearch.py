@@ -31,7 +31,7 @@ POSWGHT = {'RB': 0.7,\
            'WDT':0.2,\
            'WP':0.2,\
            'DET': 0,\
-           '.': 0} 
+           '.': 0}
 DWGHT = 1.0 # default weight
 def parseQ(q):
     question = api.parseS(q)
@@ -39,7 +39,7 @@ def parseQ(q):
 def askQ(question, document):
     article = parsefile(document)
     q = parseQ(question)
-    
+
 def trainIR(article, V):
     for sentence in article:
         seen = {}
@@ -64,11 +64,20 @@ def mostRelevant(q, article, V, N):
 def cosDist(q, s, V, N):
     alreadyseen = {}
     score = 0
-    for tok in s:
+    start = len(s)
+    end = 0
+    numcorrect = 0
+    for i in range(len(s)):
+        tok = s[i]
         word = tok['lemma']
         pos = tok['POS']
         weight = DWGHT
         if word in q:
+            numcorrect+=1
+            if i<=start:
+                start = i
+            if i>=end:
+                end = i+1
             if pos in POSWGHT:
                 weight = POSWGHT[pos]
             if not word in alreadyseen:
@@ -80,6 +89,8 @@ def cosDist(q, s, V, N):
                 else:
                     score+=weight*math.log(N/V[word])
                 alreadyseen[word][pos] = True
+    if end-start>0:
+        score = score/(end-start)*len(s)/numcorrect
     return score
 
 
