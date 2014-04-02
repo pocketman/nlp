@@ -22,15 +22,16 @@ POSWGHT = {'RB': 0.7,\
            'NN': 1.7,\
            'NNS':1.7,\
            'NNP':2.0,\
-           'VB': 1.7,\
-           'VBD': 1.7,\
-           'VBG': 1.7,\
-           'VBN': 1.7,\
-           'VBP': 1.7,\
-           'VBZ': 1.7,\
+           'VB': 1.3,\
+           'VBD': 1.3,\
+           'VBG': 1.3,\
+           'VBN': 1.3,\
+           'VBP': 1.3,\
+           'VBZ': 1.3,\
            'WDT':0.2,\
            'WP':0.2,\
            'DET': 0,\
+           'WRB': 0,\
            '.': 0}
 DWGHT = 1.0 # default weight
 def parseQ(q):
@@ -90,7 +91,8 @@ def cosDist(q, s, V, N):
                     score+=weight*math.log(N/V[word])
                 alreadyseen[word][pos] = True
     if end-start>0:
-        score = score/(end-start)*len(s)/numcorrect
+        avgdist = (end-start)/numcorrect
+        score = score-avgdist/(len(q)+len(s))
     return score
 
 

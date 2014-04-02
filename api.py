@@ -15,7 +15,7 @@ def getcorenlp():
     global corenlp
     corenlp = StanfordCoreNLP(CORENLPDIR)
     return corenlp
-    
+
 def parseS(s):
     parse = corenlp.raw_parse(s)
     sentences = []
@@ -45,9 +45,12 @@ def parsefile(fileloc):
         for line in file:
             if len(line)>header_len:
                 sentences = parseS(line)
-            result.extend(sentences)
+                result.extend(sentences)
     return result
 
+#define a max reference length
+#if the reference pointed to exceeds this number of tokens then we can assume coref failed
+MAX = 4
 def coref(cf, s):
     for group in cf:
         for entities in group:
@@ -60,12 +63,16 @@ def coref(cf, s):
             if 'PRP' in s[sena][heada]['POS']:
             #replace a
                 sub = s[senb][b[3]:b[4]]
+                if len(sub)>MAX:
+                    continue
                 p1 = s[sena][:a[3]]
                 p2 = s[sena][a[4]:]
                 s[sena] = p1+sub+p2
             elif 'PRP' in s[senb][headb]['POS']:
             #replace b
                 sub = s[sena][a[3]:a[4]]
+                if len(sub)>MAX:
+                    continue
                 p1 = s[senb][:b[3]]
                 p2 = s[senb][b[4]:]
                 s[senb] = p1+sub+p2
