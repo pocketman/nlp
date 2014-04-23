@@ -3,9 +3,14 @@ import extractor as ex
 import api
 import json
 import collections
+import sys
 
 q = None
 article = None
+
+STARTREK = 'data/set4/a8.txt'
+THEARTIST = 'data/set4/a1.txt'
+MESSI = 'data/set1/a7.txt'
 
 #parse a couple sentences
 def parse(s):
@@ -19,7 +24,8 @@ def readA(fileloc):
     N = 0
     article = api.parsefile(fileloc)
     N = ks.trainIR(article, V)
-    return [article, V, N]
+    sents = None
+    return [article, V, N, sents]
 
 #Set the question to be asked
 def askQ(s, article_obj):
@@ -41,7 +47,8 @@ def getrank(q, article_obj):
     article = article_obj[0]
     V = article_obj[1]
     N = article_obj[2]
-    return ks.mostRelevant(q,article, V, N)
+    sents = article_obj[3]
+    return ks.mostRelevant(q,article, V, N, sents)
 
 
 #reload functions
@@ -90,20 +97,32 @@ def evalAlgo():
     q = getQ('questions.txt')
     i = 0
     out = raw_input('File to write: ')
-    output = open(out,'w')
     article_name = q[i]['path']
     types = collections.Counter()
     total = collections.Counter()
     a_obj = readA(article_name)
     while i<len(q):
+        output = open(out,'a+')
         if q[i]['path']!=article_name:
             article_name = q[i]['path']
             a_obj = readA(article_name)
         outstr = q[i]['type']+' | '+q[i]['qns_text']+ '\n'+ str(askQ(q[i]['qns_text'], a_obj)[0])+'\n'+q[i]['answer']+'\n'
         output.write(outstr)
+        output.close()
         i+=1
         print i
-    output.close()
-    
-        
-    
+
+
+
+def main():
+    if len(sys.argv)<2:
+        return
+    qloc = sys.argv[2]
+    text = sys.argv[1]
+    a = readA(text)
+    f = open(qloc)
+    for line in f:
+        print askQ(line,a)[0][0]
+
+if __name__=="__main__":
+    main()

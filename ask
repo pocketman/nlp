@@ -1,0 +1,2 @@
+#!/bin/sh
+python replacer.py $1 $2

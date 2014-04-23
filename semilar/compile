@@ -1,0 +1,1 @@
+javac -classpath Semilar-1.0.jar Sentence2SentenceSimilarityTest.java

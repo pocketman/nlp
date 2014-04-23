@@ -1,0 +1,216 @@
+hard | Do Perl programs start faster than programs in C?
+('Large Perl programs start more slowly than similar programs in compiled languages because perl has to compile the source every time it runs .', 22.84775465674396, 0.557339, ['start', 'program', 'in', 'than'])
+It depends.
+hard | Is Perl easier to program in than C?
+('In such situations , the most-critical routines of a Perl program can be written in other languages such as C or Assembly , which can be connected to Perl via simple Inline modules or the more-complex-but-flexible XS mechanism .', 18.871970002077873, 0.41658616, ['c', 'to', 'program', 'in', 'Perl'])
+It depends.
+hard | Where can I look to learn more about Perl?
+("Perl syntax reflects the idea that `` things that are different should look different . ''", 17.528785421017155, 0.5130524, ['look', 'Perl'])
+Further reading.
+medium | What is the unofficial symbol of Perl?
+('This image of a camel has become an unofficial symbol of Perl as well as a general hacker emblem , appearing on T-shirts and other clothing items .', 28.115595003638184, 0.62920713, ['of', 'symbol', 'Perl', 'unofficial'])
+ A picture of a dromedary camel.
+medium | From which languages does Perl borrow features from?
+('Perl borrows features from other programming languages including C , shell scripting -LRB- sh -RRB- , AWK , and sed .', 26.97376964491676, 0.589074, ['from', 'language', 'borrow', 'feature', 'Perl'])
+C, shell scripting (sh), AWK, and sed.
+medium | What is Perl's nickname?
+("Perl is nicknamed `` the Swiss Army chainsaw of scripting languages '' because of its flexibility and power , and possibly also because of its perceived `` ugliness '' .", 13.250777534269854, 0.5146959, ['nickname', 'Perl'])
+The Swiss Army chainsaw of scripting languages
+easy | Is Perl golf the pastime of reducing the number of characers used in a Perl program to the bare minimum?
+("Perl `` golf '' is the pastime of reducing the number of characters -LRB- key `` strokes '' -RRB- used in a Perl program to the bare minimum , much as how golf players seek to take as few shots as possible in a round .", 92.31044737589981, 0.7482315, ['a', 'use', 'golf', 'minimum', 'to', 'of', 'reduce', 'number', 'Perl', 'program', 'pastime', 'in', 'bare', 'the'])
+Yes.
+easy | Is Perl used for finance?
+('In addition to CGI , Perl is used for graphics programming , system administration , network programming , finance , bioinformatics , and other applications .', 26.06953773633451, 0.69368804, ['use', 'finance', 'for', 'Perl'])
+Yes
+easy | Was Perl 5.14.1 released on June 17, 2011?
+('Perl 5.14.1 was released on June 17 , 2011 , and Perl 5.16.1 was released on August 9 , 2012 .', 49.355190999554225, 0.8320065, ['on', '17', 'June', ',', 'Perl', 'release', '2011', '5.14.1'])
+Yes
+hard | Is there anyone that can speak Latin fluently?
+('The ordinary student can no longer count on being able to take Latin , but there are extracurricular means .', 14.792242811537971, 0.38368222, ['Latin', 'there', 'can'])
+yes
+hard | Does Latin have only two moods?
+('Latin is a highly inflected language , with three distinct genders , seven noun cases , four verb conjugations , six tenses , three persons , three moods , two voices , two aspects and two numbers .', 23.00924462152932, 0.48757476, ['Latin', 'mood', 'two'])
+no
+hard | Did the passage explain why Latin dialogue is occasionally used?
+("Occasionally , Latin dialogue is used because of Latin dialogue association with religion or philosophy , in such film/TV series as The Exorcist and Lost -LRB- `` Jughead '' -RRB- .", 29.03930788490464, 0.41682693, ['dialogue', 'Latin', 'use', 'occasionally', 'the'])
+yes
+medium | Have all international auxiliary languages been heavily influenced by Latin?
+('Many international auxiliary languages have been heavily influenced by Latin .', 44.32233758232335, 0.9262277, ['Latin', 'auxiliary', 'language', 'heavily', 'influence', 'international', 'by'])
+No
+medium | Is Latin still compulsory in Boston Latin School?
+('Latin is still compulsory in few schools , like the Boston Latin School , Boston Latin Academy and the Italian Liceo classico and Liceo scientifico .', 56.0998269672552, 0.7605441, ['School', 'Latin', 'Boston', 'in', 'still', 'compulsory'])
+yes
+medium | Did Latin alphabet derive from the Old Italic alphabet?
+('Latin was written in the Latin alphabet , derived from the Old Italic alphabet , which was in turn drawn from the Greek and ultimately the Phoenician alphabet .', 36.26825357390423, 0.6208611, ['derive', 'from', 'alphabet', 'italic', 'old', 'the'])
+yes
+easy | Is Latin still taught?
+('Latin is still taught in many high schools in Europe and the Americas as complementary teaching .', 16.336927375799696, 0.6694134, ['still', 'teach', 'Latin'])
+yes
+easy | Are there many websites and forums maintained in Latin by enthusiasts?
+('There are many websites and forums maintained in Latin by enthusiasts .', 71.35558311247054, 0.8035714, ['website', 'and', 'Latin', 'forum', 'enthusiast', 'many', 'there', 'maintain', 'in', 'by'])
+yes
+easy | Are many of the most common polysyllabic English words of Latin origin?
+('Many of the most common polysyllabic English words are of Latin origin , through the medium of Old French .', 60.586206244940406, 0.76510423, ['origin', 'latin', 'word', 'many', 'english', 'polysyllabic', 'most', 'common', 'of', 'the'])
+yes
+hard | What are the roles that Landon usually plays?
+('Landon Timothy Donovan -LRB- born March 4 , 1982 -RRB- is an American association football player , currently playing for the Los Angeles Galaxy .', 16.950577510051783, 0.4728141, ['play', 'Landon', 'the'])
+withdrawn forward
+hard | What are the languages that Donovan speaks?
+('Donovan speaks Spanish , which Donovan learned in high school and while playing with the Cal Heat club -LRB- which consisted primarily of players of Hispanic descent -RRB- .', 14.488378836748208, 0.6470035, ['Donovan', 'the', 'speak'])
+Spanish, German, English
+hard | Is five World Cup goals the most for any man representing a team for CONCACAF?
+('Donovan total of five World Cup goals is the most for any man representing a team from CONCACAF .', 78.18427240956484, 0.9352064, ['a', 'represent', 'goal', 'for', 'Cup', 'CONCACAF', 'most', 'five', 'team', 'World', 'the', 'any', 'man'])
+yes
+medium | Who is Tim Donovan?
+('Donovan was born on March 4 , 1982 , in Ontario , California , to Donna Kenney-Cash , a special education teacher , and Tim Donovan , a semi-professional ice hockey player originally from Canada .', 18.568292003359367, 0.58353245, ['Donovan', 'Tim'])
+He is an American association football player.
+medium | When did Donovan's mother allow him to join an organized league?
+('When Donovan was six , Academy Donovan mother allowed him to join an organized league , and he scored seven goals in his first game .', 52.45243976913788, 0.75491154, ['a', 'organize', 'league', 'to', 'Donovan', 'allow', 'mother', 'join'])
+When he was six.
+medium | Is Donovan the third American player to score in more than one World Cup?
+('Donovan goals in the 2010 World Cup made Donovan the highest scoring American player in World Cup history and the third American player to score in more than one World Cup -LRB- after Brian McBride and Clint Dempsey -RRB- .', 65.94359506008237, 0.7602977, ['third', 'player', 'cup', 'Donovan', 'one', 'to', 'american', 'score', 'in', 'world', 'the', 'than', 'more'])
+yes
+easy | Did Landon ever go on loan?
+('Donovan went on loan again from January to March 2010 with English Premier League side Everton , where he scored twice in ten appearances .', 14.611275924025763, 0.32243416, ['on', 'loan', 'go'])
+yes
+easy | Can Donovan speak Spanish?
+('Donovan speaks Spanish , which Donovan learned in high school and while playing with the Cal Heat club -LRB- which consisted primarily of players of Hispanic descent -RRB- .', 11.053002955820954, 0.67777556, ['Donovan', 'speak'])
+yes
+easy | Is Donovan currently playing for the Los Angeles Galaxy?
+('Landon Timothy Donovan -LRB- born March 4 , 1982 -RRB- is an American association football player , currently playing for the Los Angeles Galaxy .', 42.42940566570489, 0.72373503, ['play', 'for', 'currently', 'Angeles', 'Los', 'Donovan', 'the', 'Galaxy'])
+yes
+hard | Who is James T. Kirk's father?
+("When speaking on the alternate reality established in the 2009 film , Abrams commented that it would be `` ridiculous to not be open '' to ideas like resurrecting William Shatner 's James T. Kirk or recasting Khan Noonien Singh .", 37.58373895462121, 0.5845299, ["'s", 'James', 'T.', 'Kirk'])
+George Samuel Kirk
+hard | Who was the original creator of Star Trek?
+('Development for Star Trek originated in 1968 , when creator Gene Roddenberry announced plans to produce a prequel modeled after the television series .', 26.282997293557255, 0.49799606, ['Trek', 'Star', 'creator', 'the'])
+Gene Roddenberry
+hard | Which character did Leonard Nimoy play?
+('The filmmakers had filmed Nimoy when Leonard Nimoy rerecorded his lines so they could rotoscope his mouth into the film , even recreating the lighting conditions , but they realized they had to digitally recreate his lips because of the bouncing light created by the camp fire .', 25.53491407418359, 0.664913, ['Leonard', 'Nimoy'])
+Spock
+medium | What happened to the majority of Spencer Daniels's scenes?
+('Barney Burman supervised the makeup for the other aliens : his team had to rush the creation of many of the aliens , because originally the majority of them were to feature in one scene towards the end of filming .', 22.723689903725273, 0.30117795, ['the', 'majority', 'of', 'scene', 'to'])
+They were cut
+medium | Which substance creates black holes in the move?
+("However , Nero launches `` red matter '' into the core and creates an artificial black hole to destroy the planet .", 26.562233741222105, 0.6391851, ['create', 'black', 'the', 'hole'])
+red matter
+medium | Which academy award did Star Trek win?
+('Star Trek was nominated for several awards , including four Academy Awards at the 82nd Academy Awards , ultimately winning in the category for Best Makeup , making it the first Star Trek film to win an Academy Award .', 46.52611563390826, 0.7716835, ['Trek', 'Star', 'academy', 'award', 'win'])
+Best Makeup
+easy | Who from NASA was consulted on the planetary science?
+('Carolyn Porco of NASA was consulted on the planetary science and imagery .', 58.2412446407527, 0.8366655, ['planetary', 'on', 'science', 'NASA', 'consult', 'the'])
+Carolyn Porco
+easy | When did development for Star Trek originate?
+("Burr praised the character development in the film , opining that `` emotionally , Star Trek hits every one of its marks , functioning as a family reunion that extends across decades , entertainment mediums , even blurring the line between audience and show . ''", 25.994777401156078, 0.6182111, ['development', 'Trek', 'Star'])
+1968
+easy | When did principal photography commence?
+('Principal photography commenced on November 7 , 2007 and ended on March 27 , 2008 .', 33.92785841020398, 0.34962776, ['photography', 'commence', 'principal'])
+November 7, 2007
+hard | Does Peppy give Zimmer an ultimatum?
+("Could they give Zimmer one more ? ''", 19.09727790945149, 0.5, ['give', 'Zimmer'])
+No
+hard | Is Valentin on good terms with his wife after his film fails to be a hit?
+("Now Valentin 's only chance of avoiding bankruptcy is for his film to be a hit .", 27.312242881533937, 0.63702846, ['a', 'hit', 'Valentin', 'to', 'film', 'he'])
+NO
+hard | How does Valentin meet Miller?
+('In 1927 , silent film star George Valentin is posing for pictures outside the premiere of his latest hit film , A Russian Affair , when a young woman , Peppy Miller , accidentally bumps into him .', 19.335183685561102, 0.5422956, ['Miller', 'Valentin'])
+Peppy Miller accidentally bumps into him
+medium | How many Golden Globes did the film win?
+('At the 69th Golden Globe Awards , the film was nominated for six Golden Globes to win three of them ; Best Motion Picture -- Musical or Comedy , Best Actor -- Motion Picture Musical or Comedy for Dujardin and Best Musical Score for Bource .', 31.046113653092725, 0.6221792, ['Golden', 'win', 'Globes', 'the', 'film'])
+3
+medium | Who wrote and directed the film?
+('The film was written and directed by Michel Hazanavicius and stars Jean Dujardin and Berenice Bejo .', 18.7288488248957, 0.67621785, ['and', 'direct', 'write', 'the', 'film'])
+Michel Hazanavicius and stars Jean Dujardin and B�r�nice Bejo
+medium | How many stars did Christley give the film?
+("Writing for Slant Magazine , Jaime N. Christley gave the film 1.5 out of 4 stars , explaining Michel Hazanavicius ignores `` everything that 's fascinating and memorable about the era , focusing instead on a patchwork of general knowledge , so eroded of inconvenient facts that it does n't even qualify as a roman a clef .", 31.731375285318165, 0.565615, ['star', 'give', 'Christley', 'the', 'film'])
+1.5
+easy | Did the story take place in Bollywood?
+("The story takes place in Hollywood , between 1927 and 1932 , and focuses on the relationship of an older silent film star and a rising young actress as silent cinema falls out of fashion and is replaced by the `` talkies '' .", 29.001874271170145, 0.5635857, ['story', 'place', 'take', 'in', 'the'])
+No
+easy | Was the film's music largely composed by Ludovic Bource?
+("The film 's music was largely composed by Ludovic Bource , but includes works by other composers such as Alberto Ginastera 's Estancia .", 55.22731906347094, 0.77140397, ['Bource', 'compose', "'s", 'largely', 'music', 'Ludovic', 'the', 'by', 'film'])
+Yes
+easy | Was the Artist was filmed in fifty-three days?
+('The Artist was filmed in thirty-five days , made in the 1.33:1 screen ratio commonly used in the silent film era .', 22.12819422242721, 0.6489827, ['Artist', 'in', 'the', 'day', 'film'])
+No
+hard | Did Donovan sign a six-year contract for German clud Bayer Leverkusen before 1999?
+('Later in 1999 Donovan signed a six-year contract for German club Bayer Leverkusen , whose sporting director Michael Reschke spotted him at a youth tournament in Europe .', 61.95837411479646, 0.68445253, ['a', '1999', 'for', 'german', 'contract', 'sign', 'Leverkusen', 'Donovan', 'Bayer', 'six-year'])
+no
+hard | Is Donovan still playing football?
+('Landon Timothy Donovan -LRB- born March 4 , 1982 -RRB- is an American association football player , currently playing for the Los Angeles Galaxy .', 18.378981862604217, 0.5081367, ['Donovan', 'play', 'football'])
+yes
+hard | When did Donovan express his desire to take a break from his professional soccer career?
+('In October 2012 , Donovan expressed Donovan desire to take a break from his professional soccer career , citing physical and mental exhaustion as the main reasons .', 77.99651726248682, 0.7722433, ['desire', 'from', 'career', 'express', 'break', 'to', 'Donovan', 'take', 'a', 'professional', 'soccer', 'he'])
+2012
+medium | Is Donovan male or female?
+('Donovan is a four-time winner of the U.S. Soccer Athlete of the Year award -LRB- the only male to do so and the only male to win in consecutive years -RRB- , as well as the only three-time winner of the Honda Player of the Year award , having won it seven times .', 15.826598049016486, 0.47744036, ['Donovan', 'male'])
+male
+medium | Dis Donovan's team ever win Honduras in San Pedro Sula?
+('On October 10 , 2009 , Donovan scored on a free kick , giving the U.S. a 3 -- 2 victory over Honduras in San Pedro Sula , clinching a berth in the 2010 World Cup .', 57.690579350181046, 0.5780114, ['Pedro', 'San', 'in', 'Donovan', 'Honduras', 'Sula'])
+yes
+medium | Did Donovan sign a six-year contract for German clud Bayer Leverkusen before 1999?
+('Later in 1999 Donovan signed a six-year contract for German club Bayer Leverkusen , whose sporting director Michael Reschke spotted him at a youth tournament in Europe .', 61.95837411479646, 0.68445253, ['a', '1999', 'for', 'german', 'contract', 'sign', 'Leverkusen', 'Donovan', 'Bayer', 'six-year'])
+no
+easy | Is Donovan the first man to be named U.S. Soccer Athlete of the Year three years in a row?
+('In 2004 Donovan became the first man to be named U.S. Soccer Athlete of the Year three years in a row , before returning to Bayer Leverkusen in 2005 .', 76.53529823816419, 0.86337155, ['a', 'Soccer', 'name', 'row', 'of', 'U.S.', 'in', 'three', 'to', 'Donovan', 'year', 'the', 'first', 'Athlete', 'man'])
+yes
+easy | Was Donovan born in California?
+('Donovan was born on March 4 , 1982 , in Ontario , California , to Donna Kenney-Cash , a special education teacher , and Tim Donovan , a semi-professional ice hockey player originally from Canada .', 24.960229596133274, 0.6056458, ['Donovan', 'California', 'bear', 'in'])
+yes
+easy | Did Donovan sign a  six-year contract for German clud Bayer Leverkusen?
+('Later in 1999 Donovan signed a six-year contract for German club Bayer Leverkusen , whose sporting director Michael Reschke spotted him at a youth tournament in Europe .', 56.67334404866669, 0.64973027, ['a', 'for', 'german', 'contract', 'sign', 'Leverkusen', 'Donovan', 'Bayer', 'six-year'])
+no
+hard | Dis Slumdog Millionaire won all the Acacemy Awards that it was nominated for in 2009?
+('A sleeper hit , Slumdog Millionaire was nominated for 10 Academy Awards in 2009 and won eight , the most for any film of 2008 , including Best Picture , Best Director , and Best Adapted Screenplay .', 43.160951079588585, 0.5962332, ['for', 'Slumdog', 'win', 'in', 'Millionaire', 'award', 'nominate', 'the', '2009'])
+no
+hard | Was Slumdog Millionarie only inspired by Swarup's original novel Q & A?
+("In addition to Swarup 's original novel Q & A , the film was also inspired by Indian cinema .", 74.59621278764187, 0.6009886, ['A', 'novel', "'s", 'inspire', '&', 'Swarup', 'original', 'Q', 'by'])
+Yes
+hard | Why did Beaufoy make three research trips to India?
+('To hone the script , Beaufoy made three research trips to India and interviewed street children , finding himself impressed with their attitudes .', 62.68369208527148, 0.79701906, ['make', 'India', 'three', 'research', 'to', 'Beaufoy', 'trip'])
+To hone the script.
+medium | When dis Slumdog Millionaire have a nationwide grand release in the United Kingdom?
+('After its world premiere at Telluride Film Festival and later screenings at the Toronto International Film Festival and the London Film Festival , Slumdog Millionaire had a nationwide grand release in the United Kingdom on 9 January 2009 and in the United States on 23 January 2009 .', 66.6841216286781, 0.6848112, ['a', 'Kingdom', 'United', 'nationwide', 'Slumdog', 'in', 'Millionaire', 'grand', 'release', 'the'])
+9 January 2009
+medium | Who produced the Australian 2008 release of Slumdog MIllionaire?
+('The Australian 2008 release of Slumdog Millionaire was produced by Icon Film Distribution .', 38.76156078709181, 0.7106212, ['Slumdog', 'of', 'produce', 'release', '2008', 'australian', 'the'])
+Icon Film Distribution
+medium | Did Jamal ever worked as a tea server at an Indian call centre?
+("Years later , while working as a tea server at an Indian call centre , Jamal searches the centre 's database for Salim and Latika .", 75.29314831770277, 0.7340851, ['a', 'centre', 'tea', 'work', 'server', 'as', 'indian', 'call', 'at', 'Jamal'])
+yes
+easy | Was Jamal Malik a former street child?
+('In Mumbai in 2006 , eighteen-year-old Jamal Malik -LRB- Dev Patel -RRB- , a former street child -LRB- child Ayush Mahesh Khedekar , adolescent Tanay Chheda -RRB- from the Juhu slum , is a contestant on the Indian version of Who Wants to Be a Millionaire ?', 52.15498743206021, 0.6130639, ['a', 'Malik', 'street', 'child', 'Jamal', 'former'])
+yes
+easy | Was Slumdog Millionaire a major success in East Asia?
+('In particular , the film was a major success in East Asia .', 54.896206970619616, 0.64128983, ['a', 'major', 'success', 'Asia', 'in', 'East'])
+yes
+easy | Was the Slumdog Millionaire soundtrack composed by A.R.Rahman?
+('The Slumdog Millionaire soundtrack was composed by A. R. Rahman , who planned the score for over two months and completed it in two weeks .', 39.698691544792595, 0.6645622, ['compose', 'Slumdog', 'Millionaire', 'soundtrack', 'the', 'by'])
+yes
+hard | Which roles does Messi prefer to play?
+("This role is characterized by Messi 's tendency to seemingly be playing as a centre forward , or as a lone striker , although he will often run back into deep positions drawing defenders with him , creating space for wingers , other forwards , and attacking midfielders to make runs , allowing him to provide them with assists or giving him space to begin dribbling runs , score goals or create attacking plays .", 20.800947037210243, 0.6744793, ['play', 'Messi', 'to', 'role'])
+forward
+hard | How many times did Messi win La Liga?
+('Although Barcelona failed to win their 4th consecutive Liga title under Guardiola , finishing runners up to arch-rivals Real Madrid , Messi finished the 2011 -- 12 season as the top goalscorer in La Liga for a second time , with a Liga record of 50 goals .', 32.34231624196961, 0.58932203, ['Liga', 'La', 'Messi', 'time', 'win'])
+5
+hard | What is Messi's nationality?
+("Ahead of the match Messi 's had said `` This is a re-debut .", 9.16288021986013, 0.60713595, ['Messi', "'s"])
+Argentine
+medium | What's the name of Messi's son?
+('Messi confirmed that the child , a son , would be born in October , and that he and his girlfriend plan to name him Thiago .', 23.421463115476325, 0.5871097, ['name', 'son', 'the'])
+Thiago
+medium | How old was Messi when he started to play for Barcelona?
+('When his scored his first senior goal for the club against Albacete Balompie on 1 May 2005 , Messi was 17 years , ten months and seven days old , becoming the youngest to ever score in a La Liga game for Barcelona until it was again broken by Bojan Krkic in 2007 , scoring from a Messi assist .', 23.678448647894474, 0.4420848, ['old', 'for', 'Messi', 'Barcelona', 'to'])
+11
+medium | Against which team did Messi become the first player to score 5 goals in one match?
+('In March 2012 , Messi made UEFA Champions League history by becoming the first player to score five goals in one match , achieving the feat in a 7 -- 1 win over Bayer Leverkusen .', 37.569120221210355, 0.70381933, ['goal', 'to', 'in', 'one', 'player', 'score', 'become', 'the', 'match', 'first'])
+Bayer Leverkusen
+easy | What is Messi's net wealth estimated at?
+('him net wealth is estimated at $ 110 millon .', 42.83848204801856, 0.73333335, ['wealth', 'at', 'net', 'estimate'])
+$110 million
+easy | Who were Barcelona defeated by in the 2011 Copa del Rey Final?
+('On 20 April , Barcelona were defeated by arch-rivals Real Madrid in the 2011 Copa del Rey Final .', 72.80382266799384, 0.8076923, ['Copa', 'defeat', 'Barcelona', 'Final', 'Rey', 'del', 'in', 'the', '2011', 'by'])
+Real Madrid
+easy | Which video games front covers were Messi featured on?
+('Messi was featured on the front covers of the video games Pro Evolution Soccer 2009 and Pro Evolution Soccer 2011 and is also involved in promotional campaigns for the games .', 55.15845504717985, 0.78902924, ['on', 'messi', 'cover', 'feature', 'game', 'video', 'front'])
+Pro Evolution Soccer 2009 and 2011

@@ -1,4 +1,6 @@
 from corenlp import StanfordCoreNLP
+import simp
+from nltk.corpus import wordnet as wn
 
 CORENLPDIR = 'stanford-corenlp-full-2013-11-12'
 
@@ -17,6 +19,7 @@ def getcorenlp():
     return corenlp
 
 def parseS(s):
+    s = s
     parse = corenlp.raw_parse(s)
     sentences = []
     for l in parse['sentences']:
@@ -27,6 +30,13 @@ def parseS(s):
             token['NER'] = w[1]['NamedEntityTag']
             token['POS'] = w[1]['PartOfSpeech']
             token['lemma'] = w[1]['Lemma']
+            if token['POS'] == 'FW':
+                token['lemma']=token['word']
+            if token['word'] == '-LRB-':
+                token['word'] = '('
+            if token['word'] == '-RRB-':
+                token['word'] = ')'
+            token['WS'] = simp.getSynset(toString2(l['words']), token['word'])
             sentence.append(token)
         sentences.append(sentence)
     if 'coref' in parse:
@@ -59,18 +69,29 @@ def coref(cf, s):
             sena = a[1]
             senb = b[1]
             heada = a[2]
+            enda = a[3]
             headb = b[2]
-            if 'PRP' in s[sena][heada]['POS']:
+            if 'PRP' in s[sena][heada]['POS'] or 'PRP' in s[sena][a[3]]:
             #replace a
+                if 'PRP$' in s[sena][heada]['POS'] or\
+                   'PRP$' in s[senb][headb]['POS']:
+                    continue
                 sub = s[senb][b[3]:b[4]]
+                if toString([sub[-1]]) == "'s":
+                    sub = sub[:-1]
                 if len(sub)>MAX:
                     continue
                 p1 = s[sena][:a[3]]
                 p2 = s[sena][a[4]:]
                 s[sena] = p1+sub+p2
-            elif 'PRP' in s[senb][headb]['POS']:
+            elif 'PRP' in s[senb][headb]['POS'] or 'PRP' in s[senb][b[3]]:
             #replace b
+                if 'PRP$' in s[senb][headb]['POS'] or\
+                   'PRP$' in s[sena][heada]['POS']:
+                    continue
                 sub = s[sena][a[3]:a[4]]
+                if toString([sub[-1]]) == "'s":
+                    sub = sub[:-1]
                 if len(sub)>MAX:
                     continue
                 p1 = s[senb][:b[3]]
@@ -82,4 +103,10 @@ def toString(sentence):
     s = ""
     for t in sentence:
         s+=t['word']+" "
+    return s[:-1]
+
+def toString2(sentence):
+    s=""
+    for t in sentence:
+        s+=t[0]+" "
     return s[:-1]

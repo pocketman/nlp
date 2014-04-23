@@ -1,0 +1,5 @@
+p="/afs/andrew.cmu.edu/usr23/jiaxingc/asker"
+f="${1##*/}"
+python preprocess.py $1 $p/$f
+cd $p
+ask $f $2

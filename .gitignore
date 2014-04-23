@@ -5,3 +5,7 @@ stanford-corenlp-full*
 *~
 legacy
 *.DS_Store
+data
+corenlp
+semilar/lib
+semilar/Wordnet-JWI
